@@ -66,7 +66,7 @@ class App extends React.Component {
         return (
             <div className="wrapper">
                 <div className='main'>
-                    <div className="container">
+                   
                         <div className="row">
                             <div className='col-sm-5 info'>
                                 <Info/>
@@ -76,7 +76,7 @@ class App extends React.Component {
                                 <Weather {...this.state}/>
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
             </div>
         );
